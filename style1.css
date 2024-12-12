@@ -1070,7 +1070,7 @@ h2 {
 fieldset {
     border: none;
     margin: 0;
-    padding: 21;
+    padding: 21px;
 }
 
 legend {
@@ -1360,7 +1360,7 @@ details[open] summary::after {
     padding: 20px;
     max-width: 90%;
     margin: 140px auto; /* Center the section */
-    gap: 40px; /
+    gap: 40px; 
 }
 .Product{
     flex-basis: 70%; 
