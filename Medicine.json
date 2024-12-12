@@ -1,0 +1,245 @@
+{
+    "categories": 
+    [
+        {
+            "name": "Analgesics (Pain Relievers)",
+            "products":
+           [
+                {
+                    "id": "paracetamol",
+                    "name": "Paracetamol",
+                    "description": "For moderate pain and fever",
+                    "price": 10.00,
+                    "image": "Images/Paracetamol.webp"
+                },
+                {
+                    "id": "ibuprofen",
+                    "name": "Ibuprofen",
+                    "description": "For inflammation, pain, and fever",
+                    "price": 20.00,
+                    "image": "Images/Ibuprofen.webp"
+
+                },
+                {
+                    "id": "aspirin",
+                    "name": "Aspirin",
+                    "description": "For cardiovascular protection",
+                    "price": 15.00,
+                    "image": "Images/Aspirin.webp"
+                },
+                {
+                    "id": "naproxen",
+                    "name": "Naproxen",
+                    "description": "For arthritis and muscle pain",
+                    "price": 25.00,
+                    "image": "Images/Naproxen.webp"
+                },
+                {
+                    "id": "tramadol",
+                    "name": "Tramadol",
+                    "description": "For moderate to severe pain",
+                    "price": 30.00,
+                    "image": "Images/Tramadol.webp"
+                },
+                {
+                    "id": "diclofenac",
+                    "name": "Diclofenac",
+                    "description": "For inflammatory pain",
+                    "price": 15.00,
+                    "image": "Images/Diclofenac.webp"
+                }
+
+            ]
+
+        },
+        {
+           "name":"Antibiotics (Infection Treatment)",
+           "products":
+           [
+                {
+                    "id": "amoxicillin",
+                    "name": "Amoxicillin",
+                    "description": "For respiratory and ear infections",
+                    "price": 15.00,
+                    "image": "Images/Amoxicillin.webp"
+                },
+                {
+                    "id": "azithromycin",
+                    "name": "Azithromycin",
+                    "description": "For bacterial infections",
+                    "price": 12.00,
+                    "image": "Images/Ciprofloxacin.webp"
+
+                },
+                {
+                    "id": "doxycycline",
+                    "name": "Doxycycline",
+                    "description": "For urinary tract infections",
+                    "price": 11.00,
+                    "image": "Images/Doxycycline.webp"
+                },
+                {
+                    "id": "ciprofloxacin",
+                    "name": "Ciprofloxacin",
+                    "description": "For urinary tract infections",
+                    "price": 13.00,
+                    "image": "Images/Ciprofloxacin.webp"
+                },
+                {
+                    "id": "cephalexin",
+                    "name": "Cephalexin",
+                    "description": "For skin and soft tissue infections",
+                    "price": 15.00,
+                    "image": "Images/Cephalexin.webp"
+                },
+                {
+                    "id": "metronidazole",
+                    "name": "Metronidazole",
+                    "description": "For anaerobic infections",
+                    "price": 17.00,
+                    "image": "Images/Metronidazole.webp"
+                }
+           ]
+
+        },
+        {
+            "name":"Antidepressants (Mental Health)",
+            "products":
+            [
+                 {
+                     "id": "sertraline",
+                     "name": "Sertraline",
+                     "description": "For depression, anxiety, and PTSD",
+                     "price": 9.00,
+                     "image": "Images/Sertraline.webp"
+                 },
+                 {
+                     "id": "fluoxetine",
+                     "name": "Fluoxetine",
+                     "description": "For depression and OCD",
+                     "price": 10.00,
+                     "image": "Images/Fluoxetine.webp"
+ 
+                 },
+                 {
+                     "id": "escitalopram",
+                     "name": "Escitalopram",
+                     "description": "For depression and generalized anxiety disorder",
+                     "price": 15.00,
+                     "image": "Images/Escitalopram.webp"
+                 },
+                 {
+                     "id": "amitriptyline",
+                     "name": "Amitriptyline",
+                     "description": "For depression and chronic pai",
+                     "price": 19.00,
+                     "image": "Images/Naproxen.webp"
+                 },
+                 {
+                     "id": "venlafaxine",
+                     "name": "Venlafaxine",
+                     "description": "For major depressive and anxiety disorders",
+                     "price": 13.00,
+                     "image": "Images/Venlafaxine.webp"
+                 },
+                 {
+                     "id": "bupropion",
+                     "name": "Bupropion",
+                     "description": "For depression and smoking cessation",
+                     "price": 15.00,
+                     "image": "Images/Bupropion.webp"
+                 }
+            ]
+ 
+        },
+        {
+            "name":"Antihistamines(Allergy Relief)",
+            "products":
+            [
+                 {
+                     "id": "cetirizine",
+                     "name": "Cetirizine",
+                     "description": "For hay fever and allergies",
+                     "price": 12.00,
+                     "image": "Images/Cetirizine.webp"
+                 },
+                 {
+                     "id": "loratadine",
+                     "name": "Loratadine",
+                     "description": "For allergies (non-drowsy formula)",
+                     "price": 14.00,
+                     "image": "Images/Fluoxetine.webp"
+ 
+                 },
+                 {
+                     "id": "diphenhydramine",
+                     "name": "Diphenhydramine",
+                     "description": "For allergies and as a sleep aid",
+                     "price": 16.00,
+                     "image": "Images/Diphenhydramine.webp"
+                 },
+                 {
+                     "id": "fexofenadine",
+                     "name": "Fexofenadine",
+                     "description": "For allergies reduction",
+                     "price": 20.00,
+                     "image": "Images/Fexofenadine.webp"
+                 }  
+            ]
+ 
+        },
+        {
+            "name":"Antihypertensives (Blood Pressure Control)",
+            "products":
+            [
+                 {
+                     "id": "amlodipine",
+                     "name": "Amlodipine",
+                     "description": "For high blood pressure and angina",
+                     "price": 11.00,
+                     "image":"Images/DALL·E 2024-11-25 10.46.10 - A detailed 3D-rendered image of a medicine box for Amlodipine, designed in a professional pharmaceutical style. The box should be rectangular and pred.webp"
+                 },
+                 {
+                     "id": "lisinopril",
+                     "name": "Lisinopril",
+                     "description": "For hypertension and heart failure",
+                     "price": 13.00,
+                     "image": "Images/DALL·E 2024-11-25 10.46.43 - A detailed 3D-rendered image of a medicine box for Lisinopril, designed in a professional pharmaceutical style. The box should be rectangular and pred.webp"
+ 
+                 },
+                 {
+                     "id": "losartan",
+                     "name": "Losartan",
+                     "description": "For hypertension and heart failure",
+                     "price": 15.00,
+                     "image": "Images/DALL·E 2024-11-25 10.46.58 - A detailed 3D-rendered image of a medicine box for Losartan, designed in a professional pharmaceutical style. The box should be rectangular and predom.webp" 
+                 },
+                 {
+                     "id": "metoprolol",
+                     "name": "Metoprolol",
+                     "description": "For hypertension and heart rate control",
+                     "price": 17.00,
+                     "image": "Images/DALL·E 2024-11-25 10.47.02 - A detailed 3D-rendered image of a medicine box for Metoprolol, designed in a professional pharmaceutical style. The box should be rectangular and pred.webp"
+                 },
+                 {
+                     "id": "hydrochlorothiazide",
+                     "name": "Hydrochlorothiazide",
+                     "description": "A diuretic for high blood pressure",
+                     "price": 19.00,
+                     "image": "Images/DALL·E 2024-11-25 10.47.07 - A detailed 3D-rendered image of a medicine box for Hydrochlorothiazide, designed in a professional pharmaceutical style. The box should be rectangular.webp"
+                 },
+                 {
+                     "id": "clonidine",
+                     "name": "Clonidine",
+                     "description": "For hypertension symptoms",
+                     "price": 9.00,
+                     "image": "Images/DALL·E 2024-11-25 10.47.11 - A detailed 3D-rendered image of a medicine box for Clonidine, designed in a professional pharmaceutical style. The box should be rectangular and predo.webp"
+                 }
+            ]
+ 
+        }
+ 
+        
+
+    ]
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeBridge registration</title>
+    <link rel="stylesheet" href="style1.css">
+    <meta name="description" content="Register with SafeBridge to access personalized healthcare services, manage your appointments, and enjoy member-only benefits. Sign up today to experience world-class medical care and wellness solutions.">
+    <meta name="keywords" content="SafeBridge registration, sign up, create an account, healthcare registration, patient registration, SafeBridge member benefits, medical services registration, healthcare signup, patient portal, SafeBridge account">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="FAVICON/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FAVICON/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="FAVICON/favicon-16x16.png">
+    <link rel="manifest" href="FAVICON/site.webmanifest">
+    <link rel="mask-icon" href="FAVICON/safari-pinned-tab.svg" >
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<header>
+    <div class="header-container">
+        <a href="index.html" class="Logo"><img src="Images/logo2.png" alt="SafeBridge Logo"></a>
+    
+    <div class="Log_in">
+    <a href="12SIGNINPAGE.html" class="login-btn">Login</a>
+    <a href="8,1CART.html"><img src="Images/CART.png" alt="Image of the log in page"></a>
+</div>
+  
+    <!-- Cart Section -->
+    <div class="cart">
+        <a href="6PHARAMCY.HTML"><img src="Images/heart_black_1.png" alt="Cart Image"></a>
+    </div>
+    </div>
+
+       
+        <nav class="nav-menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰ </label></nav>
+
+            <div class="Navigate">
+                <ul class="link-bar" style="list-style-type: none;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="2ABOUT.html">About Us & Contact</a></li>
+                    <li><a href="3SERVICES.HTML">Services</a></li>
+                    <li><a href="4DOCTORS.html">Doctors</a></li>
+                    <li><a href="5CONSULTATION.html">Consultation</a></li>
+                    <li><a href="6PHARAMCY.html">Pharmacy</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">More</a>
+                        
+                         <input type="checkbox" id="dropdown-toggle" class="dropdown-toggle">
+                        <ul class="dropdown-content">
+                            <li><a href="8FAQ.html">FAQ</a></li>
+                            <li><a href="9SUCCESSSTORIES.html">Success Stories</a></li>
+                            <li><a href="10CAREERS.html">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<body>
+    <main>
+        <div class="main"><h1>Register with SafeBridge: Your Gateway to Better Health</h1></div>
+        <div class="consultation-content"><p>Join the SafeBridge community and unlock a world of comprehensive healthcare solutions. Register today to access personalized medical services, expert wellness advice, and dedicated support. Together, let's pave the way towards a healthier, more vibrant life. SafeBridge—where your health journey begins with confidence and care</p>
+         </div>
+    
+        <form action="#" method="post" id="Reservation-Form">
+        <fieldset>
+            <legend>Account Information</legend>
+
+                <label for="Usename">Usename :</label>
+                <input type="text" id="Usename" name="Usename" required><br>
+
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" required><br>
+                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirm Password" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Person Information</legend>
+            <label for="Fullname">Full Name :</label>
+            <input type="text" id="Fullname" name="Fullname" required><br>
+
+            <label for="Birth">Date of Birth :</label>
+            <input type="date" id="Birth" name="Birth" required><br>
+
+            <label for="Gender">Gender :</label>
+                <select id="Gender" name="Gender" required>
+                    <option value="">Please select a gender</option>
+                    <option value="MALE">MALE</option>
+                    <option value="FEMALE">FEMALE</option>
+                    <option value="OTHER">OTHER</option>
+                </select><br>
+
+                <label for="Occupation">Occupation :</label>
+                <input type="text" id="Occupation" name="Occupation" required><br>
+
+                <label for="Nationality">Nationality :</label>
+                <input type="text" id="Nationality" name="Nationality" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="Home-Address">Home Address :</label>
+            <input type="text" id="Home-Address" name="Home-Address" required><br>
+      
+            <label for="EmailAddress">Email :</label>
+            <input type="email" id="EmailAddress" name="EmailAddress" required><br>
+
+            <label for="Phone">Contact Number :</label>
+            <input type="tel" id="Phone" name="Phone" required><br>
+
+            <label for="Emergency-Phone">Emergency Contact Number :</label>
+            <input type="tel" id="Emergency-Phone" name="Emergency-Phone" required>
+            <input type="tel" id="Emergency-Phone" name="Emergency-Phone" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Insurance Information</legend>
+
+            <label for="Insurance-Provider">Insurance Provider :</label>
+            <input type="text" id="Insurance-Provider" name="Insurance-Provider" required><br>
+
+            <label for="Policy-Num">Policy Number :</label>
+            <input type="text" id="Policy-Num" name="Policy-Num" required><br>
+
+            <label for="Insurance-Provider-Contact">Insurance Provider Contact :</label>
+            <input type="tel" id="Insurance-Provider-Contact" name="Insurance-Provider-Contact" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Medical History</legend>
+
+            <label for="Insurance-Provider">Insurance Provider :</label>
+            <input type="text" id="Insurance-Provider" name="Insurance-Provider" required><br>
+
+            <label for="Exisiting-Medical-Condtions">Existing Medical Conditions :</label>
+            <textarea name="Exisiting-Medical-Condtions" id="Exisiting-Medical-Condtions" rows="10" cols="100" placeholder="Specify all prior medical conditions....."></textarea>
+
+            <label for="Current-Medical-Condtions">Current Medical Conditions :</label>
+            <textarea name="Current-Medical-Condtions" id="Current-Medical-Condtions" rows="10" cols="100" placeholder="Specify all current medical conditions....."></textarea>
+
+            <label for="Past-Surgeries">Past Surgeries :</label>
+            <textarea name="Past-Surgeries" id="Past-Surgeries" rows="10" cols="100" placeholder="Specify all current medical conditions....."></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Consent & Agreements</legend>
+
+            <label for="Consent-for-Treatment">
+                Consent for Treatment :<br>
+                By signing this consent, you agree to undergo any surgeries or procedures deemed necessary by SafeBridge's medical team. <br>
+                Trust in our expertise to provide you with the best possible care, adhering strictly to the highest medical standards and practices for your health and safety.
+               <input type="checkbox" id="Consent-for-Treatment" name="Consent-for-Treatment" value="Agreed-for-Treatment">
+             </label><br><br>
+
+             <label for="Financial-Agreement">
+                Financial Agreement :<br>
+                By signing this financial agreement, you agree to fulfill the payment obligations for any surgeries or procedures deemed necessary by SafeBridge's medical team. <br>
+                Trust in our commitment to provide you with the highest standard of care, ensuring transparency and fairness in all your healthcare expenditures.
+                <input type="checkbox" id="Consent-for-Treatment" name="Consent-for-Treatment" value="Agreed-for-Treatment">
+             </label><br>
+
+             <label for="signature">Signature :</label>
+             <input type="text" id="signature" name="signature" placeholder="Enter your signature here">
+        </fieldset>
+
+        <button type="reset">Submit</button>
+        <button type="reset"> Reset</button>
+    </form>
+    <div id="consultation--content">
+    <p>THANKYOU FOR REGISTRATING WITH SafeBridge!! </p>
+</div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <!-- Logo and Navigation (Left) -->
+            <div class="footer-logo-nav">
+                <div class="footer-logo">
+                    <img src="Images/logo2.png" alt="SafeBridge Logo">
+                </div>
+                <nav class="footer-navigation">
+                    
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="2ABOUT.html">About Us & Contact</a></li>
+                        <li><a href="3SERVICES.HTML">Services</a></li>
+                        <li><a href="4DOCTORS.html">Doctors</a></li>
+                        <li><a href="5CONSULTATION.html">Consultation</a></li>
+                        <li><a href="6PHARAMCY.html">Pharmacy</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">More</a>
+                            <ul class="dropdown-content">
+                                <li><a href="7WELLNESSSHOP.HTML">Wellness Shop</a></li>
+                                <li><a href="8FAQ.html">FAQ</a></li>
+                                <li><a href="9SUCCESSSTORIES.html">Success Stories</a></li>
+                                <li><a href="10CAREERS.html">Careers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <!-- Contact and Social Media Section (Right) -->
+            <div class="footer-contact-social">
+                <section class="footer-contact">
+                    <ul>
+                        <li><a href="tel:1234567890"><img src="Images/phone.jpg" alt="Phone Icon"></a></li>
+                        <p>Contact us at: 123-456-7890</p>
+                        <li><a href="mailto:SafeBridge@gmail.com"><img src="Images/gimail.jpg" alt="Gmail Icon"></a></li>
+                        <p>Email us: SafeBridge@gmail.com</p>
+                    </ul>
+                </section>
+    
+                <section class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="Images/facebook.webp" alt="Facebook"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/linkedin.jpg" alt="LinkedIn"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/x.jpg" alt="Twitter"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/youtube.png" alt="YouTube"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/instagram.webp" alt="Instagram"></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 SafeBridge. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

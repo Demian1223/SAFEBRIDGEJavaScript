@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeBridge Consultation</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <meta name="description" content="Book a consultation with SafeBridge to receive personalized healthcare advice from our experienced doctors. Our consultation services are designed to provide tailored health solutions for every patient.">
+    <meta name="keywords" content="SafeBridge consultation, healthcare consultation, medical consultation, online consultation, patient consultation, virtual healthcare, personalized care, SafeBridge services, healthcare advice">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="FAVICON/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FAVICON/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="FAVICON/favicon-16x16.png">
+    <link rel="manifest" href="FAVICON/site.webmanifest">
+    <link rel="mask-icon" href="FAVICON/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <header>        
+        <div class="header-container">
+            <a href="index.html" class="Logo"><img src="Images/logo2.png" alt="SafeBridge Logo"></a>
+        
+        <div class="Log_in">
+        <a href="12SIGNINPAGE.html" class="login-btn">Login</a>
+        <a href="8,1CART.html"><img src="Images/CART.png" alt="Image of the log in page"></a>
+    </div>
+      
+        <!-- Cart Section -->
+        <div class="cart">
+            <a href="6PHARAMCY.HTML"><img src="Images/heart_black_1.png" alt="Cart Image"></a>
+        </div>
+        </div>
+       
+        <nav class="nav-menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰ </label>
+
+            <div class="Navigate">
+                <ul class="link-bar" style="list-style-type: none;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="2ABOUT.html">About Us & Contact</a></li>
+                    <li><a href="3SERVICES.HTML">Services</a></li>
+                    <li><a href="4DOCTORS.html">Doctors</a></li>
+                    <li><a href="5CONSULTATION.html">Consultation</a></li>
+                    <li><a href="6PHARAMCY.html">Pharmacy</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">More</a>
+                        
+                         <input type="checkbox" id="dropdown-toggle" class="dropdown-toggle">
+                        <ul class="dropdown-content">
+                            <li><a href="8FAQ.html">FAQ</a></li>
+                            <li><a href="9SUCCESSSTORIES.html">Success Stories</a></li>
+                            <li><a href="10CAREERS.html">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main"><h1>Schedule Your Consultation</h1></div>
+        <div class="consultation-content">
+            <p>Welcome to SafeBridge, where your health and well-being are our top priorities. Please take a moment to fill out the consultation form below to schedule your appointment with one of our dedicated healthcare professionals. Whether you're seeking routine check-ups, specialized treatments, or a second opinion, this form allows us to gather the essential information needed to provide you with personalized and efficient care. By providing accurate details about your symptoms, concerns, and any special requirements, you enable our team to prepare the best approach for your consultation. Rest assured that all of your information will be handled with the utmost confidentiality. Once submitted, our Consultation Services team will review your request, and a qualified doctor will get in touch with you via phone or email to discuss the next steps. Thank you for choosing SafeBridge—your trusted partner in health.</p>
+        </div>
+
+
+        <form action="#" method="post" id="Reservation-Form">
+            <fieldset> 
+
+                    <legend>Consultation Form</legend>
+
+                <label for="Fullname">Full Name :</label>
+                <input type="text" id="Fullname" name="Fullname" required><br>
+
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" required><br>
+
+                <label for="EmailAddress">Email Address :</label>
+                <input type="email" name="EmailAddress" id="EmailAddress" required><br>
+                <input type="email" name="confirmEmail" id="confirmEmail" placeholder="Confirm Email" required><br>
+
+               <label for="DateConsultation">Date of Consultation :</label>
+               <input type="date" name="DateConsultation" id="DateConsultation" required><br>
+
+               <label for="TimeofConsultation">Time of Consultation :</label>
+               <select name="TimeofConsultation" id="TimeofConsultation" required>
+                    <option value="">Please Select a Time Slot</option>
+                    <option value="8am-9am">8:00 AM - 9:00 AM</option>
+                    <option value="9am-10am">9:00 AM - 10:00 AM</option>
+                    <option value="10am-11am">10:00 AM - 11:00 AM</option>
+                    <option value="11am-12pm">11:00 AM - 12:00 PM</option>
+                    <option value="12pm-1pm">12:00 PM - 1:00 PM</option>
+                    <option value="1pm-2pm">1:00 PM - 2:00 PM</option>
+                    <option value="2pm-3pm">2:00 PM - 3:00 PM</option>
+                    <option value="3pm-4pm">3:00 PM - 4:00 PM</option>
+                    <option value="4pm-5pm">4:00 PM - 5:00 PM</option>
+                    <option value="5pm-6pm">5:00 PM - 6:00 PM</option>
+               </select><br>
+
+               <label for="branch">Select a Branch:</label>
+                <select id="branch" name="branch" required>
+                    <option value="">Please select a branch</option>
+                    <option value="new-york">New York, USA - SafeBridge North America</option>
+                    <option value="berlin">Berlin, Germany - SafeBridge Center of Medical Excellence</option>
+                    <option value="london">London, UK - SafeBridge London Health Institute</option>
+                    <option value="milan">Milan, Italy - SafeBridge Founding Hospital</option>
+                    <option value="tokyo">Tokyo, Japan - SafeBridge Tokyo International Hospital</option>
+                </select><br>
+
+                <label for="SpecialRequirements">Special Requirements :</label>
+                <textarea name="SpecialRequirements" id="SpecialRequirements" rows="10" cols="100" placeholder="Please describe your special requirements in detail....."></textarea><br>
+
+                <label for="Reasoning">Consultation Reasoning :</label>
+                <textarea name="Reasoning" id="Reasoning" rows="10" cols="100" placeholder="Please describe your symptoms or concerns in detail....."></textarea><br>
+
+                <label for="1Memeber">
+                    Already a member? <br>
+                    Enjoy faster services, personalized care, and exclusive member-only benefits!
+                    <input type="checkbox" id="1Memeber" name="Alreadymemeber" value="Patient-is-Already-a-member">
+                </label><br>
+                
+                <label for="2Memeber">
+                    Do you have health insurance? <br>
+                    Access comprehensive coverage, lower out-of-pocket costs, and peace of mind for all your healthcare needs!
+                    <input type="checkbox" id="2Memeber" name="healthinsurance" value="Patient-has-health-insurance">
+                </label><br>
+                
+                <label for="3Memeber">
+                    Please agree to the Terms and Conditions <br>
+                    By checking, you agree to our consultation terms, including patient confidentiality, data protection, and adherence to our cancellation and rescheduling policies. 
+                    <input type="checkbox" id="3Memeber" name="TermsConditions" value="Patient-agreed-to-TermsConditions">
+                </label><br>
+                
+
+                 <div class="consultation-content">
+                 <p>Once you submit the form, our Consultating Services team will promptly alert a doctor, who will review your information. You will be notified of the next steps via a call or email. Thank you for choosing SafeBridge for your healthcare needs!</p>
+                </div>
+
+            </fieldset>
+
+            <button type="reset">Submit</button>
+            <button type="reset"> Reset</button>
+
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <!-- Logo and Navigation (Left) -->
+            <div class="footer-logo-nav">
+                <div class="footer-logo">
+                    <img src="Images/logo2.png" alt="SafeBridge Logo">
+                </div>
+                <nav class="footer-navigation">
+                    
+                    <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2ABOUT.html">About Us & Contact</a></li>
+                <li><a href="3SERVICES.HTML">Services</a></li>
+                <li><a href="4DOCTORS.html">Doctors</a></li>
+                <li><a href="5CONSULTATION.html">Consultation</a></li>
+                <li><a href="6PHARAMCY.html">Pharmacy</a></li>
+    
+                    </ul>
+     
+                </nav>
+            </div>
+    
+            <!-- Contact and Social Media Section (Right) -->
+            <div class="footer-contact-social">
+                <div class="footer-contact">
+                    <ul>
+                        <li><a href="tel:1234567890"><img src="Images/phone.jpg" alt="Phone Icon"></a></li>
+                        <li>
+                                <a href="mailto:SafeBridge@gmail.com"><img src="Images/gimail.jpg" alt="Gmail Icon"></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="Images/facebook.webp" alt="Facebook"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/linkedin.jpg" alt="LinkedIn"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/x.jpg" alt="Twitter"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/youtube.png" alt="YouTube"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/instagram.webp" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 SafeBridge. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

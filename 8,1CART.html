@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeBridge Cart page</title>
+    <link rel="stylesheet" href="style1.css">
+    <meta name="description" content="Review the products in your SafeBridge cart, update quantities, and proceed to checkout. Ensure you have all your wellness and healthcare essentials ready for purchase.">
+    <meta name="keywords" content="SafeBridge cart, review cart, checkout, shopping cart, wellness products, healthcare products, update cart, proceed to checkout, SafeBridge checkout, health products purchase">
+
+   
+    <link rel="apple-touch-icon" sizes="180x180" href="FAVICON/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FAVICON/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="FAVICON/favicon-16x16.png">
+    <link rel="manifest" href="FAVICON/site.webmanifest">
+    <link rel="mask-icon" href="FAVICON/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<header>
+        
+    <div class="header-container">
+        <a href="index.html" class="Logo"><img src="Images/logo2.png" alt="SafeBridge Logo"></a>
+    
+    <div class="Log_in">
+    <a href="12SIGNINPAGE.html" class="login-btn">Login</a>
+    <a href="8,1CART.html"><img src="Images/CART.png" alt="Image of the log in page"></a>
+</div>
+  
+    <!-- Cart Section -->
+    <div class="cart">
+        <a href="6PHARAMCY.HTML"><img src="Images/heart_black_1.png" alt="Cart Image"></a>
+    </div>
+    </div>
+
+       
+        <nav class="nav-menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰ </label>
+
+            <div class="Navigate">
+                <ul class="link-bar" style="list-style-type: none;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="2ABOUT.html">About Us & Contact</a></li>
+                    <li><a href="3SERVICES.HTML">Services</a></li>
+                    <li><a href="4DOCTORS.html">Doctors</a></li>
+                    <li><a href="5CONSULTATION.html">Consultation</a></li>
+                    <li><a href="6PHARAMCY.html">Pharmacy</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">More</a>
+                        
+                         <input type="checkbox" id="dropdown-toggle" class="dropdown-toggle">
+                        <ul class="dropdown-content">
+                            <li><a href="8FAQ.html">FAQ</a></li>
+                            <li><a href="9SUCCESSSTORIES.html">Success Stories</a></li>
+                            <li><a href="10CAREERS.html">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+</header>
+<body>
+    <main>
+    <section class="main">
+        <h1>Checkout Form</h1>
+        <div class="consultation-content">
+            <p>Thank you for choosing us for your healthcare needs. We are committed to providing a wide range of quality medications and healthcare products to ensure you receive the best treatment quickly and efficiently. Our simple and secure checkout process guarantees a seamless experience, while our expert pharmacists are always available to assist with personalized advice. Trust SafeBridge Pharmacy for quality, convenience, and peace of mind as you complete your order.</p>
+        </div>
+        </section>
+
+    <form action="#" method="post" id="Reservation-Form">
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" placeholder="Enter first name" required>
+                
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" placeholder="Enter last name" required>
+           
+               
+                    <label for="mobile-number">Mobile Number:</label>
+                    <input type="tel" id="mobile-number" placeholder="07XXXXXXXX" pattern="07[0-9]{8}" required>
+             
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+              
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter a password" required>
+              
+                    <label for="branch">Select a Branch:</label>
+                        <select id="branch" name="branch" required>
+                            <option value="">Please select a branch</option>
+                            <option value="new-york">New York, USA - SafeBridge North America</option>
+                            <option value="berlin">Berlin, Germany - SafeBridge Center of Medical Excellence</option>
+                            <option value="london">London, UK - SafeBridge London Health Institute</option>
+                            <option value="milan">Milan, Italy - SafeBridge Founding Hospital</option>
+                            <option value="tokyo">Tokyo, Japan - SafeBridge Tokyo International Hospital</option>
+                        </select><br>
+
+                
+            <legend> Delivery Information</legend>
+
+                <label for="address">Address:</label>
+                <textarea id="address" placeholder="Enter your address" required></textarea>
+
+                <label for="text">Special Instructions</label>
+                <input type="text" name="text" id="text" placeholder="Notes for the delivery (e.g., “Leave at the door)”">
+
+            <legend>Payment Information</legend>
+
+                <label for="radio">Payment Method</label>
+                <p>Cash on Delivery <small><b>(please fill the card details with random numbers)</b></small></p> <input type="radio" name="payment-method" value="Cash on Delivery" required>
+                <p>Card Payment</p> <input type="radio" name="payment-method" value="Cash on Delivery" required>
+                
+                <label for="expiry-date">Expiry Date of Card:</label>
+                <input type="date" id="expiry-date" required>
+
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" placeholder="12345678XXXXXXXX" required pattern="[0-9]{16}">
+
+                <label for="cvv">CVV (Card Verification Value):</label>
+                <input type="text" id="cvv" placeholder="Behind the card" required pattern="[0-9]{3}">
+
+                <section class="Total_cost">  
+                   <legend>Order Summary</legend>
+                    <table>
+                        
+                        <tbody>
+                            
+                    
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total Price</td>
+                                <td colspan="2"id="total-price"></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            
+            
+            
+            
+            
+            
+                        <legend>Security and Terms</legend>
+                            
+                        <label for="Alreadymemeber">
+                            Already a memeber? <br>
+                            Enjoy faster services, personalized care, and exclusive member-only benefits!
+                           <input type="checkbox" id="Memeber" name="Alreadymemeber" value="Patient-is-Already--a-memeber">
+                         </label><br>
+            
+                         <label for="healthinsurance">
+                            Do you have health insurance? <br>
+                            Access  coverage, lower out-of-pocket costs for all your healthcare needs!
+                           <input type="checkbox" id="healthinsurance" name="healthinsurance" value="Patient-has-health-insurance">
+                         </label><br>
+            
+                         <label for="Allgeries">
+                            Do you have any Allergies? <br>
+                            Please let us know if you have any allergies medications.
+                           <input type="checkbox" id="Memeber" name="TermsConditions" value="Patient-agreed-to-TermsConditions">
+                         </label><br>
+            
+                         <div class="consultation-content"><p>Once you submit the form, our Pharmacy team will promptly process your order. You will be notified of the next steps via a call or email. Thank you for choosing SafeBridge Pharmacy for your healthcare needs!</p>
+                         </div> 
+                
+            
+            
+                <button type="pay">Pay</button>
+                <button type="reset"> Reset</button>
+       
+                </fieldset>
+        
+    </form>
+    
+
+    
+   
+    </main>
+    <footer>
+        <div class="footer-container">
+            <!-- Logo and Navigation (Left) -->
+            <div class="footer-logo-nav">
+                <div class="footer-logo">
+                    <img src="Images/logo2.png" alt="SafeBridge Logo">
+                </div>
+                <nav class="footer-navigation">
+                    
+                    <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2ABOUT.html">About Us & Contact</a></li>
+                <li><a href="3SERVICES.HTML">Services</a></li>
+                <li><a href="4DOCTORS.html">Doctors</a></li>
+                <li><a href="5CONSULTATION.html">Consultation</a></li>
+                <li><a href="6PHARAMCY.html">Pharmacy</a></li>
+    
+                    </ul>
+     
+                </nav>
+            </div>
+    
+            <!-- Contact and Social Media Section (Right) -->
+            <div class="footer-contact-social">
+                <div class="footer-contact">
+                    <ul>
+                        <li><a href="tel:1234567890"><img src="Images/phone.jpg" alt="Phone Icon"></a></li>
+                        <li>
+                                <a href="mailto:SafeBridge@gmail.com"><img src="Images/gimail.jpg" alt="Gmail Icon"></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="Images/facebook.webp" alt="Facebook"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/linkedin.jpg" alt="LinkedIn"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/x.jpg" alt="Twitter"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/youtube.png" alt="YouTube"></a></li>
+                        <li><a href="#" target="_blank"><img src="Images/instagram.webp" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 SafeBridge. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="Cart.js"></script>
+    
+</body>
+</body>
+</html>
