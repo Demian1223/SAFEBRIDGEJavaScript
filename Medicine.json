@@ -47,6 +47,13 @@
                     "description": "For inflammatory pain",
                     "price": 15.00,
                     "image": "Images/Diclofenac.webp"
+                },
+                {
+                    "id": "diclofenac",
+                    "name": "Diclofenac",
+                    "description": "For inflammatory pain",
+                    "price": 15.00,
+                    "image": "Images/Diclofenac.webp"
                 }
 
             ]

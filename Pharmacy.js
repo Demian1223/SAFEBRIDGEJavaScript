@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                                 // 2.Event delegation for dynamically added "Add to Cart" buttons
 
 
-    document.body.addEventListener('click', function (event) {
+    document.body.addEventListener('click', function (event) {//event bubbling principle in the DOM, where events bubble up from the target element up through the parent elements.
         if (event.target.classList.contains('add-to-cart')) {
             const button = event.target; // Identify the button clicked
             const shopBox = button.closest('.Shop-box'); // Find the closest shop box
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                                                          // 6.Save cart data to localStorage
 
-
+                                                         
     function saveCartData() {
         const rows = document.querySelectorAll('tbody tr'); // Select all rows in the table
         const orderDetails = Array.from(rows).map(row => ({
