@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const tbody = document.querySelector('tbody'); // Select the table body
             if (tbody.children.length === 0) {
                 alert('Opps! Your cart is empty. Please add some products before proceeding to checkout.'); // Alert if the cart is empty
-                event.preventDefault(); // Prevent the default action
+                event.preventDefault(); // Prevent the default action by stopping navigation
                 return;
             }
 
